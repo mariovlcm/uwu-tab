@@ -1,0 +1,35 @@
+@import "./vars.scss";
+nt-page-ctxmenu {
+  cursor: context-menu;
+  border: solid 1px black;
+  display: flex;
+  transform: translate(-1px, -1px);
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  padding: 0;
+  width: $pgc_width;
+  button {
+    margin: 0;
+    font-family: $def_font;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background-color: white;
+    width: 100%;
+    margin-top: 8px;
+    padding: 10px;
+    border: solid 0.2px rgba(0, 0, 0, 0.5);
+    border-left: none;
+    border-right: none;
+    outline: none;
+    transition-duration: 0.5s;
+    &:hover {
+      background-color: rgb(219, 219, 219);
+      transition-duration: 0.2s;
+    }
+    &:active {
+      box-shadow: 0px 0px 1px 1px rgba($color: #000000, $alpha: 0.5);
+    }
+  }
+}

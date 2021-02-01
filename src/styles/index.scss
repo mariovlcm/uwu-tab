@@ -1,0 +1,10 @@
+@import "./vars.scss";
+body {
+  font-family: $def_font;
+}
+nt-main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}

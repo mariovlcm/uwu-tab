@@ -1,0 +1,83 @@
+@import "./vars.scss";
+nt-addfav {
+  position: absolute;
+  top: 40%;
+  background-color: white;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 5000px rgba(0, 0, 0, 0.75);
+  z-index: 2;
+  display: block;
+  padding: 8px;
+  width: 300px;
+  height: 300px;
+  display: table;
+  input[type="text"] {
+    padding: 8px;
+    border: none;
+    box-shadow: none;
+    border-bottom: solid red 1.5px;
+    transition: all 0.2s;
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    &:focus {
+      border-bottom: solid red 2px;
+      box-shadow: none;
+      outline: none;
+    }
+  }
+  button {
+    font-family: $def_font;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background-color: red;
+    width: 100%;
+    margin-top: 8px;
+    padding: 10px;
+    box-shadow: 0.75px 0.75px 1px 1px rgba(0, 0, 0, 0.5);
+    border: solid 0.2px rgba(0, 0, 0, 0.5);
+    outline: none;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+    &:hover {
+      background-color: rgb(255, 61, 61);
+      transition-duration: 0.2s;
+    }
+    &:active {
+      box-shadow: 0px 0px 3px 3px rgba($color: #000000, $alpha: 0.5);
+      border: none;
+    }
+  }
+  span {
+    width: 100%;
+    text-align: center;
+  }
+  div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.addfav.close {
+  width: 15%;
+  font-family: $def_font;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: bold;
+  background-color: red;
+  border-radius: 5px;
+  &:hover {
+    background-color: rgb(255, 61, 61);
+    transition-duration: 0.2s;
+  }
+  &:active {
+    box-shadow: 0px 0px 3px 3px rgba($color: #000000, $alpha: 0.5);
+    border: none;
+  }
+}

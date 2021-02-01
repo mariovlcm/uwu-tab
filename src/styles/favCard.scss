@@ -1,0 +1,19 @@
+@import "./vars.scss";
+nt-favs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+nt-pgcard,
+.openModalBtn {
+  cursor: pointer;
+  width: $pgc_width;
+  height: $pgc_height;
+  border: solid 0.5px black;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 5px;
+}
