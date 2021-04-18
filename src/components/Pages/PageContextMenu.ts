@@ -1,6 +1,6 @@
-import { db } from "..";
-import Component from "../interfaces/Component";
-import "../styles/pageCtxMenu.scss";
+import { db } from "../..";
+import Component from "../../interfaces/Component";
+import "../../styles/pageCtxMenu.scss";
 
 export class PageContextMenu extends Component {
   deleteBtn: HTMLButtonElement;

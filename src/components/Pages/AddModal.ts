@@ -1,5 +1,5 @@
-import { ColorUtil } from "../colorUtil";
-import Component from "../interfaces/Component";
+import { ColorUtil } from "../../colorUtil";
+import Component from "../../interfaces/Component";
 import { AddCard } from "./AddCard";
 
 export class AddModal extends Component {

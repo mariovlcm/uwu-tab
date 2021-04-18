@@ -1,9 +1,9 @@
-import Component from "../interfaces/Component";
-import "../styles/favCard.scss";
-import { ColorUtil } from "../colorUtil";
+import Component from "../../interfaces/Component";
+import "../../styles/favCard.scss";
+import { ColorUtil } from "../../colorUtil";
 import { PageContextMenu } from "./PageContextMenu";
-import { IFavPage } from "../database";
-import { db } from "..";
+import { IFavPage } from "../../database";
+import { db } from "../..";
 
 export class PageCard extends Component {
   draggable = true;

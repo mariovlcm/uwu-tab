@@ -1,7 +1,7 @@
-import { db } from "..";
-import { IFavPage } from "../database";
-import Component from "../interfaces/Component";
-import "../styles/addCard.scss";
+import { db } from "../..";
+import { IFavPage } from "../../database";
+import Component from "../../interfaces/Component";
+import "../../styles/addCard.scss";
 
 export class AddCard extends Component {
   titleDiv: HTMLDivElement;

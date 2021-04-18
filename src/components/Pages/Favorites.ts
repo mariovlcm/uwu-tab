@@ -1,8 +1,8 @@
-import Component from "../interfaces/Component";
-import { db } from "..";
+import Component from "../../interfaces/Component";
+import { db } from "../..";
 import { PageCard } from "./PageCard";
 import { AddModal } from "./AddModal";
-import { IFavPage } from "../database";
+import { IFavPage } from "../../database";
 
 export class Favorites extends Component {
   addModal: AddModal;

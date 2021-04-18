@@ -1,9 +1,7 @@
 import "./styles/index.scss";
 import Component from "./interfaces/Component";
 import { Database } from "./database";
-import { Favorites } from "./components/Favorites";
-import { AddCard } from "./components/AddCard";
-import { AddModal } from "./components/AddModal";
+import { Favorites } from "./components/Pages/Favorites";
 
 export const db = new Database();
 
